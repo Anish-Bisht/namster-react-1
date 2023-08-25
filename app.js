@@ -14,7 +14,11 @@ React.createElement("div", {id: "child"}, [
 
 ]),React.createElement("div", {id: "child2"}, [
     React.createElement("h1", {}, "I'm h1"),
-    React.createElement("h12", {}, "I'm h2")
+    React.createElement("h2", {}, "I'm h2")
 
 ])
-])
+
+]);
+
+var div = ReactDOM.createRoot(document.getElementById("root"))
+div.render(parent);
